@@ -1,94 +1,122 @@
-<h1 align="center">Hi, I'm Shalin 👋</h1>
+<div align="center">
 
-<p align="center">
-  <b>Data Scientist · ML Engineer · Full-Stack Developer</b><br>
-  MS in Data Science @ Arizona State University (4.0 GPA) · Redmond, WA
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Shalin Bhavsar, Data Scientist and ML Engineer" width="100%">
+</picture>
 
-<p align="center">
-  <a href="https://linkedin.com/in/shalinbhavsar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:shalin03bhavsar@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+**M.S. Data Science, Analytics & Engineering, Arizona State University (4.0 GPA)** · Redmond, WA
 
----
+[LinkedIn](https://linkedin.com/in/shalinbhavsar) &nbsp;·&nbsp; [Email](mailto:shalin03bhavsar@gmail.com) &nbsp;·&nbsp; [Selected work](#selected-work) &nbsp;·&nbsp; [Toolbox](#toolbox)
 
-## 🧭 About me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img src="assets/stats-light.svg" alt="Key results: 92% cold-start gap closed, 0.842 ROC-AUC, 863 leakage-free features, 30% less manual laytime work" width="100%">
+</picture>
 
-I build machine learning systems end to end: from messy data and feature engineering, to models I can explain, to something people can actually use (dashboards, APIs, cloud deployments).
+</div>
 
-- 🔬 Volunteer researcher at ASU, working with **Dr. Yi Zheng** on adaptive testing and item response theory (replicating AutoIRT / BanditCAT)
-- 🛠️ Currently building **Dataset Trust Report**: license, lineage and health scores for Hugging Face datasets, using only free tools
-- 🏭 Previously interned at **ArcelorMittal Nippon Steel**
-- 🌱 Always learning: LLM agents, big data pipelines, and cloud ML
+## I build models I can defend
 
----
+I like the part of machine learning that comes after the first good number: checking whether it's real, explaining why it works, and putting it somewhere people can use it.
 
-## 🧰 Tech stack
+When my YouTube virality model scored 0.771 AUC, I went looking for the catch. I found a channel-level leak, fixed it, and published the honest **0.622** instead. That habit of validating before celebrating is how I work.
 
-**Languages**<br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+## Right now
 
-**ML / AI**<br>
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
-![LightGBM](https://img.shields.io/badge/LightGBM-02A050?style=flat-square)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![SHAP](https://img.shields.io/badge/SHAP-explainability-8A2BE2?style=flat-square)
+- **Research with Dr. Yi Zheng (ASU):** replicating *AutoIRT* (Sharpnack et al., 2024) on a real 3,290/585-item DET item bank. I closed the cold-start calibration gap by 92% (Pearson gap 0.344 → 0.027).
+- **Dataset Trust Report:** license, lineage and health scores for Hugging Face datasets, an end-to-end big data project using free tools only, with Spark at the core.
+- **Looking for** new-grad roles in **data science, ML engineering and software engineering**.
 
-**Data and engineering**<br>
-![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+## Selected work
 
-**Cloud**<br>
-![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+### [Earnings Call & Risk Intelligence Engine](https://github.com/Shalin056/Earnings-Intelligence-Engine)
+ASU capstone. Fuses FinBERT embeddings, Loughran–McDonald sentiment and financial ratios to predict 3-day abnormal returns.
 
-## 🚀 Featured projects
+**0.633 held-out ROC-AUC** · DeLong p = 0.012 vs. sentiment-only · 863 features from 917 S&P 500 calls · LangGraph orchestration, Streamlit app
 
-| Project | What it does | Stack |
-| :-- | :-- | :-- |
-| 📞 [**churn-prediction-system**](https://github.com/Shalin056/churn-prediction-system) | Churn model on 7,043 real IBM Telco customers: 0.842 ROC-AUC, 2.86× top-decile lift, SHAP attribution, a cost-sensitive ROI framework and a Streamlit app for real-time and batch scoring | Random Forest · XGBoost · SHAP · Streamlit · scikit-learn |
-| 📈 [**Earnings-Intelligence-Engine**](https://github.com/Shalin056/Earnings-Intelligence-Engine) | ASU capstone: 863-feature, leakage-free dataset from 917 S&P 500 earnings calls; XGBoost + FinBERT reaches 0.633 held-out ROC-AUC on 3-day abnormal returns, orchestrated with LangGraph and deployed on Streamlit | FinBERT · XGBoost · SHAP · LangGraph · Streamlit |
-| 🎬 [**youtube-engagement-optimizer**](https://github.com/Shalin056/youtube-engagement-optimizer) | Predicts YouTube virality from pre-publish features only. Found and fixed a data-leakage bug (AUC 0.771 → a validated 0.622), then shipped it via FastAPI and a Tableau dashboard | XGBoost · SHAP · SciPy · FastAPI · Tableau |
-| 🧪 [**Autoirt**](https://github.com/Shalin056/Autoirt) | Replication of the AutoIRT simulation study (Sharpnack et al., 2024) for calibrating adaptive-test items with ML, including cold-start items | Python · Random Forest · XGBoost · LightGBM |
-| 🐝 [**HybridSwarm_TextClassification**](https://github.com/Shalin056/HybridSwarm_TextClassification) | LSTM text classifier on AG News (120K samples) tuned with PSO, GWO and a hybrid of both, reaching 89.3% test accuracy | Python · TensorFlow/Keras · LSTM · PSO · GWO |
-| 🚢 [**LAYTIME**](https://github.com/Shalin056/LAYTIME) | Laytime calculator web app built at ArcelorMittal Nippon Steel India; cut manual calculation time by 30% | Django · DRF · React · PostgreSQL |
+`FinBERT` `XGBoost` `SHAP` `LangGraph`
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🎓 Certifications
+### [Customer Churn Prediction System](https://github.com/Shalin056/churn-prediction-system)
+Leakage-safe churn model on the real IBM Telco data, with a cost-sensitive ROI framework instead of a vanity metric.
 
-- Oracle Cloud Infrastructure **Data Science** Professional (Oct 2025)
-- Oracle Cloud Infrastructure **Generative AI** Professional (Oct 2025)
-- Oracle Cloud Infrastructure **AI Foundations** Associate (Aug 2025)
-- AWS Academy **Cloud Foundations** (Sep 2023)
+**0.842 ROC-AUC** · 2.86× top-decile lift · $13,111 incremental net value over random targeting · Streamlit app for real-time and batch scoring
 
----
+`scikit-learn` `Random Forest` `SHAP` `Streamlit`
 
-## 📊 GitHub stats
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Shalin056&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shalin056&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages">
-</p>
+### [YouTube Virality & Engagement](https://github.com/Shalin056/youtube-engagement-optimizer)
+Predicts virality from pre-publish signals only. Includes hypothesis tests (Mann–Whitney, Kruskal–Wallis, bootstrap A/B) to separate real drivers from noise.
 
----
+**AUC 0.771 → 0.622 after fixing my own leak** · 40,500 videos · FastAPI + Tableau dashboard
 
-<p align="center">
-  <i>Open to new grad roles in Data Science, ML Engineering and Software Engineering. Let's talk!</i>
-</p>
+`XGBoost` `SciPy` `FastAPI` `Tableau`
+
+</td>
+<td width="50%" valign="top">
+
+### [AutoIRT Replication](https://github.com/Shalin056/Autoirt)
+A Monte Carlo EM pipeline for calibrating adaptive-test items from content features alone.
+
+**Difficulty recovery −0.23 → 0.88** with non-linear feature transforms · cold-start Pearson +24% using real-content NLP item generators · replicated across 5 seeds
+
+`Python` `LightGBM` `XGBoost` `NLTK`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Hybrid Swarm Text Classification](https://github.com/Shalin056/HybridSwarm_TextClassification)
+LSTM text classifier on AG News (120K samples) tuned by PSO, GWO and a hybrid of both, with convergence analysis of exploration vs. exploitation.
+
+**89.3% test accuracy**
+
+`TensorFlow` `Keras` `PSO` `GWO`
+
+</td>
+<td width="50%" valign="top">
+
+### [LAYTIME](https://github.com/Shalin056/LAYTIME)
+Production laytime calculator built during my time at ArcelorMittal Nippon Steel India, plus structured QA that raised reliability by 25%.
+
+**30% less manual calculation time**
+
+`React` `Django REST` `PostgreSQL`
+
+</td>
+</tr>
+</table>
+
+## Toolbox
+
+| | |
+| :-- | :-- |
+| **Modeling** | scikit-learn · XGBoost · LightGBM · PyTorch · TensorFlow/Keras · SHAP · LSTM · reinforcement learning |
+| **NLP & LLMs** | FinBERT · LangChain · LangGraph · spaCy · NLTK · Gensim · topic modeling (LDA) |
+| **Statistics** | A/B testing · hypothesis testing · regression · time-series CV · cohort and funnel analysis |
+| **Engineering** | Python · SQL · R · Java · JavaScript · Django · React · FastAPI · Docker · GitHub Actions |
+| **Data & cloud** | Pandas · NumPy · BigQuery · PostgreSQL · MongoDB · AWS · Oracle Cloud · Tableau · Streamlit |
+
+## Credentials
+
+Oracle Cloud Infrastructure **Data Science Professional** · **Generative AI Professional** · **AI Foundations Associate** (2025) &nbsp;·&nbsp; AWS Academy **Cloud Foundations**
+
+<br>
+
+<div align="center">
+
+*If you're hiring for data science or ML engineering, [I'd love to talk](mailto:shalin03bhavsar@gmail.com).*
+
+</div>
