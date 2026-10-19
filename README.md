@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/shalinbhavsar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:sbhavsa8@asu.edu"><img src="https://img.shields.io/badge/Email-Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:shalin03bhavsar@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 ---
@@ -62,12 +62,12 @@ I build machine learning systems end to end: from messy data and feature enginee
 
 | Project | What it does | Stack |
 | :-- | :-- | :-- |
-| 📞 [**churn-prediction-system**](https://github.com/Shalin056/churn-prediction-system) | End-to-end churn model with SHAP explanations, a Streamlit dashboard, a FastAPI service and GCP deployment scripts | LightGBM · XGBoost · SHAP · Streamlit · FastAPI · Terraform |
-| 📈 [**Earnings-Intelligence-Engine**](https://github.com/Shalin056/Earnings-Intelligence-Engine) | ASU capstone: predicts post-earnings stock moves from call transcripts and financials, with a LangGraph multi-agent pipeline on top of FinBERT features | FinBERT · XGBoost · LangGraph · PyTorch |
-| 🎬 [**youtube-engagement-optimizer**](https://github.com/Shalin056/youtube-engagement-optimizer) | Predicts whether a YouTube video goes viral using only pre-publish signals (no leakage), with a REST API, SQL metrics and a Tableau dashboard | XGBoost · SHAP · FastAPI · Tableau |
+| 📞 [**churn-prediction-system**](https://github.com/Shalin056/churn-prediction-system) | Churn model on 7,043 real IBM Telco customers: 0.842 ROC-AUC, 2.86× top-decile lift, SHAP attribution, a cost-sensitive ROI framework and a Streamlit app for real-time and batch scoring | Random Forest · XGBoost · SHAP · Streamlit · scikit-learn |
+| 📈 [**Earnings-Intelligence-Engine**](https://github.com/Shalin056/Earnings-Intelligence-Engine) | ASU capstone: 863-feature, leakage-free dataset from 917 S&P 500 earnings calls; XGBoost + FinBERT reaches 0.633 held-out ROC-AUC on 3-day abnormal returns, orchestrated with LangGraph and deployed on Streamlit | FinBERT · XGBoost · SHAP · LangGraph · Streamlit |
+| 🎬 [**youtube-engagement-optimizer**](https://github.com/Shalin056/youtube-engagement-optimizer) | Predicts YouTube virality from pre-publish features only. Found and fixed a data-leakage bug (AUC 0.771 → a validated 0.622), then shipped it via FastAPI and a Tableau dashboard | XGBoost · SHAP · SciPy · FastAPI · Tableau |
 | 🧪 [**Autoirt**](https://github.com/Shalin056/Autoirt) | Replication of the AutoIRT simulation study (Sharpnack et al., 2024) for calibrating adaptive-test items with ML, including cold-start items | Python · Random Forest · XGBoost · LightGBM |
-| 🐝 [**HybridSwarm_TextClassification**](https://github.com/Shalin056/HybridSwarm_TextClassification) | Swarm-intelligence (PSO / GWO) tuning of an LSTM text classifier on AG News | Python · LSTM · PSO · GWO |
-| 🚢 [**LAYTIME**](https://github.com/Shalin056/LAYTIME) | Laytime calculation web app for shipping operations | Django · React · Python |
+| 🐝 [**HybridSwarm_TextClassification**](https://github.com/Shalin056/HybridSwarm_TextClassification) | LSTM text classifier on AG News (120K samples) tuned with PSO, GWO and a hybrid of both, reaching 89.3% test accuracy | Python · TensorFlow/Keras · LSTM · PSO · GWO |
+| 🚢 [**LAYTIME**](https://github.com/Shalin056/LAYTIME) | Laytime calculator web app built at ArcelorMittal Nippon Steel India; cut manual calculation time by 30% | Django · DRF · React · PostgreSQL |
 
 ---
 
